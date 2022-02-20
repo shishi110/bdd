@@ -3,7 +3,8 @@
 	"FileReferences": {
 		"Moc": "bdd.moc3",
 		"Textures": [
-			"bdd.4096/texture_00.png"
+			// "bdd.4096/texture_00.png" 
+	"https://gitee.com/shishi110/bdd/raw/master/bdd/bdd.4096/texture_00.png"		
 		],
 		"Physics": "bdd.physics3.json",
 		"DisplayInfo": "bdd.cdi3.json"
