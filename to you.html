@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<script src="https://blog-static.cnblogs.com/files/Arisf/live2dcubismcore.js"></script>
+<script src="https://blog-static.cnblogs.com/files/Arisf/bundle.js"></script>
+ <canvas id="live2d" width="500" height="500" class="live2d" style="position: fixed; opacity: 1; left: -110px; bottom: -125px; z-index: 99999; pointer-events: none;"></canvas>
+
+<script type="text/javascript">
+        // 其他可选的模型： 
+        // 	小帅哥： https://unpkg.com/live2d-widget-model-chitose@1.0.5/assets/chitose.model.json
+        // 	萌娘：https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json 
+        // 	小可爱（女）：https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json 
+        // 	小可爱（男）：https://unpkg.com/live2d-widget-model-haruto@1.0.5/assets/haruto.model.json
+        // 	初音：https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json 
+
+var resourcesPath = 'http://192.168.31.206/chfs/shared/Desktop/'; // 指定资源文件（模型）保存的路径  
+
+var backImageName = ''; // 指定背景图片  
+
+var modelDir = ['bdd']; // 指定需要加载的模型
+
+initDefine(resourcesPath, backImageName, modelDir); // 初始化模型</script> 
+    </script>
+<body>
+    
+
+</body>
+
+</html>
